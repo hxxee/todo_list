@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="todo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cute+Font&display=swap"
+      rel="stylesheet"
+    />
+    <title>To do list</title>
+  </head>
+
+  <body>
+    <div class="todo-container">
+      <h1 class="title">TO DO LIST</h1>
+      <div class="box">
+        <form id="todo-form">
+          <input type="text" id="todo-input" />
+          <button class="w-btn add" type="button">ADD</button>
+        </form>
+        <ul id="todo-list">
+          <!-- <li class="todo-item">
+                    <input type="checkbox" class="item-checkbox" />
+                    <button class="edit" type="button">EDIT</button>
+                    <button class="delete" type="button">DELETE</button>
+                </li> -->
+        </ul>
+        <template id="todo-template">
+          <li class="todo-item">
+            <input type="checkbox" class="item-checkbox" id="checkboxBtn" />
+            <span class="item-title"></span>
+            <button class="w-btn delete" type="button" id="deleteBtn">
+              DELETE
+            </button>
+          </li>
+        </template>
+        <script src="todo.js"></script>
+        <div class="footer">
+          <button class="w-btn reset" type="button" id="resetBtn">RESET</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

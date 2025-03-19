@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  .bagel-fat one-regular {
+    font-family: "Bagel Fat One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .cute-font-regular {
+    font-family: "Cute Font", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+.title {
+  font-family: "Bagel Fat One";
+  font-size: 80px;
+  text-align: center;
+}
+
+.todo-container {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: "Cute Font";
+}
+
+input[type="text"] {
+  width: 300px;
+  height: 30px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 10px;
+  background-color: rgb(233, 233, 233);
+}
+
+button {
+  margin: 10px;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+.item-checkbox {
+  text-align: left;
+}
+
+.w-btn {
+  position: relative;
+  border: none;
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 15px;
+  font-family: "paybooc-Light", sans-serif;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.25s;
+}
+
+.w-btn-outline {
+  position: relative;
+  padding: 15px 30px;
+  border-radius: 15px;
+  font-family: "paybooc-Light", sans-serif;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.25s;
+}
+
+.add {
+  background-color: #77af9c;
+  color: #d7fff1;
+}
+
+.delete {
+  background-color: #519d9e;
+  color: #9dc8c8;
+  position: absolute;
+  float: right;
+}
+
+/* ul li span:hover {
+    background-color: #e6e6e6;
+} */
+
+button#delete:hover {
+  background-color: #376a6b;
+}
+
+.todo-item {
+  list-style-type: none;
+  text-align: left;
+}
+
+.box {
+  width: 600px;
+  height: 800px;
+  background-color: rgb(56, 90, 97);
+  margin: 30px;
+  padding: 5px;
+  border-radius: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.todo-item {
+  color: #fff;
+}
